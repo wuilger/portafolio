@@ -1,11 +1,11 @@
 @media screen and (max-width: 576px) {
 
 #header{
-    width: 80px;
+    width: 50px;
 }
 
 #menu__bar{
-    width: 80px;
+    width: 50px;
 }
 /*logo*/
 #menu__bar img{
@@ -20,7 +20,7 @@
 }
 
 #main{
-    padding-left: 80px;
+    padding-left: 50px;
 }
 #presentacion__principal{
 
@@ -282,7 +282,7 @@
 }
 #footer{
     background-color: #ef6817;
-    margin-left: 80px;
+    margin-left: 50px;
    
 }
 .footer p{

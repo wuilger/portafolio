@@ -25,7 +25,7 @@ html{
 #header{
     display: flex;
     flex-direction: column;
-    background-color: #383838;
+    background-color: #1d1d1d;
     width: 100px;
     height: 100%;
     position: fixed;
