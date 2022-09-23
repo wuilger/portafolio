@@ -59,7 +59,7 @@
 }
 .cursos{
     font-size: 18px;
-    width: 100px;
+    width: 180px;
     
 }
 .cursos-lista{
@@ -287,8 +287,12 @@
 }
 .footer p{
     margin: 0;
-    padding: 20px;
+    padding: 15px;
     text-align: center;
+}
+.logo-footer{
+    width: 30px;
+    
 }
 .swiper {
     width: 100%;
