@@ -53,9 +53,19 @@
     color: #727271;
     font-weight: 300;
     line-height: 1.5;
-    margin: 5px;    
+    
+    margin: 5px;
+    width: 300px;    
 }
-
+.cursos{
+    font-size: 18px;
+    width: 100px;
+    
+}
+.cursos-lista{
+    
+    width: 300px;
+}
 
 #habilidades{
     background-color: #131313;
@@ -203,7 +213,7 @@
     justify-content: center;
 }
 .cards .cards-card{
-    width: 200px;
+    width: 180px;
     height: 350px;
     margin: 15px;
 }
@@ -213,11 +223,11 @@
     margin: 0;
 }
 .card-contenido .card-tipo{
-    font-size: 15px;
+    font-size: 12px;
     padding-left: 5px;
 }
 .card-contenido .card-descripcion{
-    font-size: 15px;
+    font-size: 12px;
     margin: 0;
 }
 .card-contenido .card-boton{
@@ -279,6 +289,10 @@
     margin: 0;
     padding: 20px;
     text-align: center;
+}
+.swiper {
+    width: 100%;
+    
 }
 }
 @media screen and (max-width: 415px){
