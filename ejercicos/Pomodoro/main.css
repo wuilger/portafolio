@@ -1,0 +1,133 @@
+body {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #003366;
+
+  }
+  header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .titulo{
+    
+    font-size: 70px;
+    font-weight: 900;
+    margin-bottom: 0;
+  }
+  .titulo-sub{
+    margin-right: 440px;
+    
+    width: 250px;
+    height: 10px;
+    background-color: #ccc;
+    
+  }
+  
+  #app {
+   background-color: #023970;
+    width: 500px;
+    margin: 20px auto;
+    border: none;
+    box-shadow: 0px 9px 21px 2px rgba(27, 71, 118, 0.925);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  #time {
+    text-align: center; 
+    padding: 20px 0;
+  }
+  #time #value {
+    font-size: 150px;
+    font-weight: bolder;
+  }
+  
+  .form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border: none;
+    background-color: #7a7a7a8f;
+    width: 300px; 
+    height: 20px;
+    border-radius: 5px;
+    color: #ccc;
+  }
+  input[type="text"]:active{
+    background-color: #7a7a7a8f;
+    border: none;
+    
+  }
+  
+  .icono{
+    padding: 10px;
+    font-size: 25px;
+    
+  }
+  button,
+  input[type="submit"] {
+    border: none;
+    background-color: #003366;
+    padding: 10px;
+    border-radius: 5px;
+    height: 40px;
+    margin-left: 10px;
+  
+    
+  }
+  button,
+  input[type="submit"]:hover{
+    background-color: #7a7a7a8f;
+    color: #ccc;
+
+  }
+  
+  #tasks {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 10px;
+    width: 200px;
+    margin-top: 10px;
+  }
+  .task {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+  }
+  .title{
+    
+    font-size: 30px;
+    font-weight: 700;
+  }
+  #taskName{
+    font-size: 30px;
+    font-weight: 700;
+  }
+ 
+  .task .completed {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    
+    
+  }
+.done {
+    display: inline-block;
+    padding: 5px;
+    border: none;
+    background-color: #08F63E;
+    border-radius: 5px;
+    box-shadow: 0px 3px 21px 1px rgba(27, 118, 54, 0.925);
+  }

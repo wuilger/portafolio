@@ -1,0 +1,178 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(100, 100, 100)
+  }
+  header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .titulo{
+    
+    font-size: 70px;
+    font-weight: 900;
+    margin: 0;
+  }
+  .titulo-sub{
+    margin: 0 500px 20px 0;
+    
+    width: 250px;
+    height: 10px;
+    background-color: rgb(44, 194, 24);
+    
+  }
+  
+  .form {
+    background-color: rgba(28, 243, 46, 0.712);
+    border: solid 5px black;
+    padding: 20px;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 7px 6px 0px 0px #000000;
+  }
+  button {
+    border: none;
+    background-color: rgba(255, 0, 0, 0.514);
+    padding: 5px;
+    color: black;
+    border-radius: 5px;
+  }
+  
+  .form input {
+    margin: 30px 0;
+    padding: 5px;
+    display: block;
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.418);;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .form input:focus{
+    outline: none;
+
+  }
+  input[type="date" i] {
+    text-align: center;
+    font-family: 'sans serif';
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-inline-start: 10px;
+}
+
+  #eventName{
+  background-image: url('comment.svg');
+  background-size: 30px;
+  background-position: 5px 10px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  }
+  .form input::placeholder{
+    color: #000000;
+    font-weight: 500;
+    font-size: 16px;
+  }
+#bAdd {
+    border: none;
+    background-color: rgba(255, 255, 255, 0.418);;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+.form input:hover{
+    box-shadow: 7px 6px 0px 0px #000000a8; 
+    border: solid 1px black;
+    cursor: default;
+  }
+#bAdd:hover{
+    box-shadow: 7px 6px 0px 0px #000000a8; 
+    border: solid 1px black;
+    cursor: pointer;
+    
+  }
+
+
+  #eventsContainer {
+    background-color: rgba(0, 0, 0, 0.664);
+    border: solid 5px rgb(32, 223, 32);
+    padding: 20px;
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 7px 6px 0px 0px #26c910;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .event {
+    border: solid 1px #26c910;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .event .days {
+    text-align: center;
+    width: 100px;
+  }
+  .event .days .days-number {
+    font-size: 30px;
+    color: #444444;
+    font-weight: bold;
+    display: block;
+  }
+  .days-text{
+    font-size: 25px;
+    color: #444444;
+    font-weight: bold;
+  }
+  .event .event-name {
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #444444;
+    width: 170px;
+    
+  }
+  .event .event-date {
+    padding: 5px;
+    width: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #444444;
+    flex-basis: 25%;
+  }
+  .event .actions {
+    padding: 5px;
+  }
+  .titulo-form{
+    text-align: center;
+    margin: 0;
+  }
+  .titulo-h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    margin: 0;
+  }
+  .titulo-sub-h2{
+    margin-left: 820px;
+    
+    width: 150px;
+    height: 8px;
+    background-color: rgb(44, 194, 24);
+    
+  }

@@ -1,0 +1,194 @@
+@media screen and (max-width: 998px){
+
+
+#header{
+    width: 90px;
+    
+}
+
+#menu__bar{
+    width: 90px;
+    
+}
+/*logo*/
+#menu__bar img{
+    padding: 4px;
+    width: 60px;
+}
+.nav-list{
+    padding-bottom: 10px; 
+    
+}
+.link-icon{
+    width: 30px;
+    height: 30px;
+    color: #030303;
+}
+.link-item.active .link-icon{
+    color: #ef6817;   
+}
+.link-text{
+    font-family: 'Barlow Condensed';
+    font-size: 15px;
+    font-weight: 500;
+    color: #ef6817;  
+    opacity: 0;
+    transition: all .3s ease;
+}
+.link-item.active .link-text{
+    opacity: 1;
+}
+#main{
+    padding-left: 90px;
+    cursor: default;
+}
+
+
+#presentacion__principal{
+    display: flex;
+    background-color: #1b1b1b;
+    height: 100vh;
+    
+    
+}
+.presentacion__principal--foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.presentacion__principal--foto img{
+    width: 80%;
+    border-radius: 20px;
+    background-color: #030303;
+    margin: 20px;
+    
+}
+.presentacion__principal--texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Barlow Condensed' ;
+    width: 100%;
+}
+div .presentacion__principal--nombre{
+    display: flex;
+    justify-content: flex-start;
+    
+    
+    
+    
+}
+.presentacion__principal--nombre{
+    font-weight: 700;
+    font-size: 50px;
+    color: white;
+    
+
+}
+div .presentacion__principal--carrera{
+    display: flex;
+    justify-content: center;
+}
+.presentacion__principal--carrera{
+    font-weight: 500;
+    font-size: 20px;
+    color: #ef6817;
+    
+}
+
+#habilidades{
+    background-color: #131313;
+    
+}
+.habilidades-titulo{
+    display: flex;
+    padding: 30px  0 0 50px;
+}
+
+.habilidades-titulo h1{
+    border-bottom: #ef6817 4px solid;
+    font-size: 40px; 
+    padding-bottom: 4px;
+}
+
+/*acordeon*/
+.acordeon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 100em;
+    padding: 1em;
+   
+}
+
+
+.acordeon .bloque.activo .contenido{
+  height: 9em;  
+}
+.label{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    cursor: pointer;
+    width: 500px;
+}
+
+.label p{
+    margin: 0;
+    padding-top: 10px;
+    width: 50px;
+}
+
+
+.icono-habilidad{
+    width: 30px;
+    height: 40px;
+    margin-right: 10px;
+}
+.porcentaje{
+    display: flex;
+    align-items: center;
+    color: #727271;
+    
+    margin: 0;
+}
+.porcentaje-css{
+    padding-left: 380px;
+}
+.porcentaje-js{
+    padding-left: 340px;
+}
+.progreso{
+    -webkit-appearance: none;
+    
+
+}
+::-webkit-progress-bar{
+    height: 10px;
+}
+::-webkit-progress-value{
+    height: 5px;
+}
+
+
+.trabajos{
+    
+    padding: 50px 50px;
+    
+}
+.trabajos-titulo h1{
+    border-bottom: #ef6817 4px solid;
+    font-size: 40px; 
+}
+
+
+
+#footer{
+    margin-left: 90px; 
+}
+
+}

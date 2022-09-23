@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link rel="icon" href="media/diferente.png">
+
+    <link rel="stylesheet" href="estilos.css">
+
+    <link rel="stylesheet" href="estilos-media1.css">
+    <link rel="stylesheet" href="estilos-media2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>Wuilger Garcia</title>
+</head>
+<body>
+    
+    <header id="header"><!-- la barra de navegacion, va a ir vertical-->
+   <div id="menu__bar">
+    <img src="media/diferente.png" alt="">
+    </div>    
+    <nav class="nav">
+    <ul class="nav-content">
+        <li class="nav-list">
+            <a href="#presentacion__principal" class="link-item active">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-fill link-icon" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+                    <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+                  </svg>
+                  <span class="link-text">Inicio</span>
+            </a>
+        </li>
+        <li class="nav-list">
+            <a href="#habilidades" class="link-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill link-icon" viewBox="0 0 16 16">
+                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                  </svg>
+                  <span class="link-text">Sobre Mi</span>
+            </a>
+        </li>
+        <li class="nav-list">
+            <a href="#trabajos" class="link-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-workspace link-icon" viewBox="0 0 16 16">
+                    <path d="M4 16s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H4Zm4-5.95a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/>
+                    <path d="M2 1a2 2 0 0 0-2 2v9.5A1.5 1.5 0 0 0 1.5 14h.653a5.373 5.373 0 0 1 1.066-2H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v9h-2.219c.554.654.89 1.373 1.066 2h.653a1.5 1.5 0 0 0 1.5-1.5V3a2 2 0 0 0-2-2H2Z"/>
+                  </svg>
+                  <span class="link-text">trabajos</span>
+            </a>
+        </li>
+        <li class="nav-list">
+            <a href="#contacto" class="link-item">
+                
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-text  link-icon" viewBox="0 0 16 16">
+                    <path d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"/>
+                    <path d="M4 5.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zM4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8zm0 2.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5z"/>
+                  </svg>
+                  <span class="link-text">Contacto</span>
+            </a>
+        </li>
+    </ul>
+    </nav>
+    </header>
+
+    <main>
+  
+<section id="main" >
+<div id="presentacion__principal">
+        <div class="presentacion__principal--texto">
+        <div>
+            <h1 class= "presentacion__principal--nombre">Wuilger Garcia</h1></div>
+        <div><h2 class="presentacion__principal--carrera"> &lt; Desarrollador Web Jr. /&gt; </h2>
+        </div>
+      
+        </div>
+        
+        <figure class= "presentacion__principal--foto">
+           <img  src="media/yoEmoji.png" alt="presentacion">
+        </figure>
+    
+        
+    </div>
+
+<div id ="habilidades">
+    <div class="trabajos-titulo">
+        <h1>Sobre Mi</h1> 
+    </div> 
+    <div class="parrafo-presentacion"> 
+        
+        <p class="presentacion__principal--descripcion">Hola soy un joven estudiante, en busca de mi primera experiencia laboral, estoy en constante aprendizaje y dispuesto siempre aprender e indagar en tecnologías nuevas, Abierto siempre a escuchar consejos. Tengo una pasión increíble por el mundo tecnológico y cada día me esfuerzo más por estar en contacto con las herramientas que están en el mercado para así ser un profesional competente en la industria. De ante mano muchas gracias en lo que puedan ayudarme.</p>
+        <h2 class="cursos">Cursos Realizados:</h2>
+            <ul class="cursos-lista">
+                <li>Introducción a la seguridad informática.</li>
+                <li>Desarrollo web con HTML.</li>
+                <li>Javascript desde cero.</li>
+                <li>Introducción al paradigma de objetos.</li>
+                <li>Criptografía y Blockchain.</li>
+            </ul>
+    </div>
+    <div class="habilidades-titulo">
+    <h1>Habilidades</h1> 
+    
+</div> 
+
+    <div  class="acordeon">
+        
+    <div class="bloque">
+        
+        <label for="file" class="label h2-acordeon">
+            <div><img src="media/html.png" alt="icono habilidades" class="icono-habilidad">
+            <p>HTML:</p></div>
+            <p class="porcentaje">50%</p>
+        </label>
+           
+        <progress id="file" max="100" value="50" class="progreso"></progress>
+      
+        <div class="contenido"> 
+            <p class="parrafo">Dominio del lenguaje más importante para Internet. puedo codificar cualquier página basándome en los estándares fijados por el Organismo Internacional World Wide Web Consorsium (W3C). manejos de documentos HTML, XML y XHTML. Manejos de formularios, tablas, multimedia, listas. Todo esto respetando sus etiquetas semánticas.</p>
+        </div>
+    </div>
+    
+    <div class="bloque">
+        
+        <label for="file" class="label h2-acordeon">
+            <div><img src="media/css.png" alt="icono habilidades" class="icono-habilidad">
+            <p>CSS:</p></div>
+            <p class="porcentaje">30%</p>
+        </label>
+            
+        <progress id="file" max="100" value="30" class="progreso"></progress>
+        <div class="contenido"> <p class="parrafo">Puedo diseñar y dar estilo a cualquier página web, manejando sus características: Fuente, color, tamaño, espacio del contenido, dividirlo en múltiples columnas o agregar animaciones y otras características decorativas. Manejo de CSS FLEXBOX y de CSS GRID. También poseo conocimientos sobre sus framework: Bootstrap, SASS Y LESS (esto último a nivel básico).</p>
+        </div>
+    </div>
+
+    <div class="bloque">
+        
+        <label for="file" class="label h2-acordeon">
+            <div><img src="media/js.png" alt="icono habilidades" class="icono-habilidad">
+            <p>Javascript:</p></div>
+            <p class="porcentaje">20%</p>
+        </label>
+            
+        <progress id="file" max="100" value="20" class="progreso"></progress>
+        <div class="contenido"> <p class="parrafo">Conocimientos de la lógica de programación con JavaScript manejo de: Estructuras y condicionales, Arreglos y bucles, Eventos y funciones, ECMAScript 6, librerías, jQuery y Handlebars. Manejo del DOM. Conocimientos en la programación orienta a objetos. Me siento capaz de desenvolverme con facilidad con cualquier framework a pesar de que no poseo suficiente experiencia con ellos, pero quiero especializarme en react.js.</p>
+        </div>
+    </div>
+
+    </div>
+</div>
+    
+     
+    <div  id ="trabajos" >
+        <!-- <div class="trabajos-titulo">
+        <h1 >Trabajos</h1>
+        </div> -->
+        <!-- <div class="trabajos"> 
+        <div class="cards">
+            <div class="cards-card">
+            <div class="card-contenido">
+                <h1 class="card-titulo">Nombre de la pagina</h1>
+            <h2 class="card-tipo">Tipo de pagina</h2>
+            <p class="card-descripcion">tecnologias usadas, Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, quibusdam.</p>
+           <div class="card-boton"> <a href="#"><i class="fa-brands fa-github card-link__incono"></i></a><a href="#"></a> <button class="card-boton__contenido">Ir a la pagina...</button></div>
+        </div>
+    
+        </div>
+        </div> 
+        
+        <div class="cards">
+            
+            <div class="cards-card">
+            <div class="card-contenido">
+                <h1 class="card-titulo">Nombre de la pagina</h1>
+            <h2 class="card-tipo">Tipo de pagina</h2>
+            <p class="card-descripcion">tecnologias usadas, Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, quibusdam.</p>
+            <div class="card-boton"> <a href="#"><i class="fa-brands fa-github card-link__incono"></i></a><a href="#"></a> <button class="card-boton__contenido">Ir a la pagina...</button></div>
+        </div>
+    
+            </div>
+        </div> 
+        <div class="cards">
+            <div class="cards-card">
+            <div class="card-contenido">
+                <h1 class="card-titulo">Nombre de la pagina</h1>
+            <h2 class="card-tipo">Tipo de pagina</h2>
+            <p class="card-descripcion">tecnologias usadas, Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, quibusdam.</p>
+            <div class="card-boton"> <a href="#"><i class="fa-brands fa-github card-link__incono"></i></a><a href="#"></a> <button class="card-boton__contenido">Ir a la pagina...</button></div>
+        </div>
+    
+            </div>
+        </div> 
+    </div> -->
+    <div class="Mini Proyectos">
+        <div class="trabajos-titulo">
+            <h1 >Mini Proyectos</h1>
+        </div>
+        <div class="trabajos"> 
+            
+            <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          
+            <div class="swiper-slide">
+            <div class="cards">
+                <div class="cards-card" style="background-image: url('media/fondoMiniProyecto.png');">
+                <div class="card-contenido">
+                    <h1 class="card-titulo">Componente de rating</h1>
+                <h2 class="card-tipo">Probando tecnicas</h2>
+                <p class="card-descripcion">aca use HTML, CSS y JavaScript. con estos proyectos solo buscaba practicar las lecciones aprendidas.</p>
+               <div class="card-boton"> <a href="#"><i class="fa-brands fa-github card-link__incono"></i></a><a href="./ejercicos/componenteRating/componenteRating.html" target="_blank"><button class="card-boton__contenido">Ir a la pagina...</button></a></div>
+            </div>
+        
+            </div>
+            </div> 
+        </div>
+        <div class="swiper-slide">
+            <div class="cards">
+                <div class="cards-card" style="background-image: url('media/fondoMiniProyecto.png');">
+                <div class="card-contenido">
+                    <h1 class="card-titulo">Contador de dias</h1>
+                <h2 class="card-tipo">Probando tecnicas</h2>
+                <p class="card-descripcion">aca use HTML, CSS y JavaScript. con estos proyectos solo buscaba practicar las lecciones aprendidas.</p>
+               <div class="card-boton"> <a href="#"><i class="fa-brands fa-github card-link__incono"></i></a><a href="./ejercicos/contadorDias/contadorDias.html" target="_blank"><button class="card-boton__contenido">Ir a la pagina...</button></a></div>
+            </div>
+        
+            </div>
+            </div> 
+        </div>
+        <div class="swiper-slide">
+            <div class="cards">
+                <div class="cards-card" style="background-image: url('media/fondoMiniProyecto.png');">
+                <div class="card-contenido">
+                    <h1 class="card-titulo">Input con mascaras</h1>
+                <h2 class="card-tipo">Probando tecnicas</h2>
+                <p class="card-descripcion">aca use HTML, CSS y JavaScript. con estos proyectos solo buscaba practicar las lecciones aprendidas.</p>
+               <div class="card-boton"> <a href="#"><i class="fa-brands fa-github card-link__incono"></i></a><a href="./ejercicos/InputConMascara/inputMascara.html" target="_blank"><button class="card-boton__contenido">Ir a la pagina...</button></a></div>
+            </div>
+        
+            </div>
+            </div> 
+        </div>
+        <div class="swiper-slide">
+            <div class="cards">
+                <div class="cards-card" style="background-image: url('media/fondoMiniProyecto.png');">
+                <div class="card-contenido">
+                    <h1 class="card-titulo">Pomodoro</h1>
+                <h2 class="card-tipo">Probando tecnicas</h2>
+                <p class="card-descripcion">aca use HTML, CSS y JavaScript. con estos proyectos solo buscaba practicar las lecciones aprendidas.</p>
+               <div class="card-boton"> <a href="#"><i class="fa-brands fa-github card-link__incono"></i></a><a href="./ejercicos/Pomodoro/pomodoro.html" target="_blank"><button class="card-boton__contenido">Ir a la pagina...</button></a></div>
+            </div>
+        
+            </div>
+            </div> 
+        </div>
+        <div class="swiper-slide">
+            <div class="cards">
+                <div class="cards-card" style="background-image: url('media/fondoMiniProyecto.png');">
+                <div class="card-contenido">
+                    <h1 class="card-titulo">Teclado virtual</h1>
+                <h2 class="card-tipo">Probando tecnicas</h2>
+                <p class="card-descripcion">aca use HTML, CSS y JavaScript. con estos proyectos solo buscaba practicar las lecciones aprendidas.</p>
+               <div class="card-boton"> <a href="#"><i class="fa-brands fa-github card-link__incono"></i></a><a href="./ejercicos/tecladoVirtual/tecladoVirtual.html" target="_blank"><button class="card-boton__contenido">Ir a la pagina...</button></a></div>
+            </div>
+        
+            </div>
+            </div> 
+        </div>
+
+
+        <!-- <div class="swiper-slide">
+            <div class="cards">
+                <div class="cards-card" style="background-image: url('media/fondoMiniProyecto.png');">
+                <div class="card-contenido">
+                    <h1 class="card-titulo">Componente de rating</h1>
+                <h2 class="card-tipo">Probando tecnicas</h2>
+                <p class="card-descripcion">aca use HTML, CSS y JavaScript. con estos proyectos solo buscaba practicar las lecciones aprendidas.</p>
+               <div class="card-boton"> <a href="#"><i class="fa-brands fa-github card-link__incono"></i></a><a href="./ejercicos/componente de rating/index.html" target="_blank"><button class="card-boton__contenido">Ir a la pagina...</button></a></div>
+            </div>
+        
+            </div>
+            </div> 
+        </div>
+        <div class="swiper-slide">
+            <div class="cards">
+                <div class="cards-card" style="background-image: url('media/fondoMiniProyecto.png');">
+                <div class="card-contenido">
+                    <h1 class="card-titulo">Componente de rating</h1>
+                <h2 class="card-tipo">Probando tecnicas</h2>
+                <p class="card-descripcion">aca use HTML, CSS y JavaScript. con estos proyectos solo buscaba practicar las lecciones aprendidas.</p>
+               <div class="card-boton"> <a href="#"><i class="fa-brands fa-github card-link__incono"></i></a><a href="./ejercicos/componente de rating/index.html" target="_blank"><button class="card-boton__contenido">Ir a la pagina...</button></a></div>
+            </div>
+        
+            </div>
+            </div> 
+        </div>
+        <div class="swiper-slide">
+            <div class="cards">
+                <div class="cards-card" style="background-image: url('media/fondoMiniProyecto.png');">
+                <div class="card-contenido">
+                    <h1 class="card-titulo">Componente de rating</h1>
+                <h2 class="card-tipo">Probando tecnicas</h2>
+                <p class="card-descripcion">aca use HTML, CSS y JavaScript. con estos proyectos solo buscaba practicar las lecciones aprendidas.</p>
+               <div class="card-boton"> <a href="#"><i class="fa-brands fa-github card-link__incono"></i></a><a href="./ejercicos/componente de rating/index.html" target="_blank"><button class="card-boton__contenido">Ir a la pagina...</button></a></div>
+            </div>
+        
+            </div>
+            </div> 
+        </div>
+        <div class="swiper-slide">
+            <div class="cards">
+                <div class="cards-card" style="background-image: url('media/fondoMiniProyecto.png');">
+                <div class="card-contenido">
+                    <h1 class="card-titulo">Componente de rating</h1>
+                <h2 class="card-tipo">Probando tecnicas</h2>
+                <p class="card-descripcion">aca use HTML, CSS y JavaScript. con estos proyectos solo buscaba practicar las lecciones aprendidas.</p>
+               <div class="card-boton"> <a href="#"><i class="fa-brands fa-github card-link__incono"></i></a><a href="./ejercicos/componente de rating/index.html" target="_blank"><button class="card-boton__contenido">Ir a la pagina...</button></a></div>
+            </div>
+        
+            </div>
+            </div> 
+        </div>
+        <div class="swiper-slide">
+            <div class="cards">
+                <div class="cards-card" style="background-image: url('media/fondoMiniProyecto.png');">
+                <div class="card-contenido">
+                    <h1 class="card-titulo">Componente de rating</h1>
+                <h2 class="card-tipo">Probando tecnicas</h2>
+                <p class="card-descripcion">aca use HTML, CSS y JavaScript. con estos proyectos solo buscaba practicar las lecciones aprendidas.</p>
+               <div class="card-boton"> <a href="#"><i class="fa-brands fa-github card-link__incono"></i></a><a href="./ejercicos/componente de rating/index.html" target="_blank"><button class="card-boton__contenido">Ir a la pagina...</button></a></div>
+            </div>
+        
+            </div>
+            </div> 
+        </div> -->
+
+
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+            </div>
+    </div>
+    </div>
+    <div id="contacto" class="contacto">
+        <div class="habilidades-titulo">
+            <h1>Contacto</h1> 
+        </div> 
+        <div class="contacto-redes">
+            <div class="links">
+            <ul class="links-redes">
+                
+                <li>
+                    <div>
+                        <a href="https://www.linkedin.com/in/wuilger-garcia-28a716244/" class="link--contenido" target="_blank">
+                            <i class="fa-brands fa-linkedin link-incono"></i>
+                            <h3 class="link--titulo">Linkedin:</h3>
+                        </a>
+                    </div>
+                    <p class="link--descripcion">https://www.linkedin.com/in/wuilger-garcia-28a716244/</p>
+                </li>
+                
+                <li>
+                    <div class="link--contenido">
+                        <i class="fa-solid fa-envelope link-incono"></i>
+                        <h3 class="link--titulo">E-mail:</h3>
+                    
+                </div>
+                    <p class="link--descripcion">Wuilgergarcia11@gmail.com </p>
+                </li>
+                
+                <li >
+                    <div class="link--contenido">
+                        <i class="fa-solid fa-location-pin link-incono"></i>
+                        <h3 class="link--titulo">Ubicación:</h3>
+                    </div>
+                    <p class="link--descripcion especial">Ciudad Autonoma de Buenos Aires, Argentina.</p>
+                </li>
+                <li>
+                    <div>
+                        <a href="https://github.com/wuilger" class="link--contenido" target="_blank">
+                            <i class="fa-brands fa-github link-incono"></i>
+                            <h3 class="link--titulo">GitHub:</h3>
+                        </a>
+                    </div>
+                    <p class="link--descripcion">https://github.com/wuilger</p>
+                </li>
+                
+                
+            </ul>
+            </div>
+        </div>
+        
+    </div>
+</section> 
+    
+</main>
+    <footer id="footer" class="footer">
+        <p> <img class="logo-footer" src="media/diferente.png" alt="logo">&copy; Diferencia, Inc. </p>
+    </footer>
+    
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/441e980f98.js" crossorigin="anonymous"></script>
+ 
+ <!-- Swiper JS -->
+ <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+ <!-- Initialize Swiper -->
+ <script>
+   var swiper = new Swiper(".mySwiper", {
+     navigation: {
+       nextEl: ".swiper-button-next",
+       prevEl: ".swiper-button-prev",
+     },
+   });
+ </script>
+</body>
+</html>

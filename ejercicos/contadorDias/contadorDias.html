@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../../media/diferente.png">
+    <link rel="stylesheet" href="main.css">
+    <title>Contador dias</title>
+
+</head>
+<header>
+    <h1 class="titulo">Input con Másacara</h1>
+    <div class="titulo-sub"></div>
+</header>
+<body>
+    <div id="app">
+        
+        <div class="form">
+            <h2 class="titulo-form">Añade tu evento</h2>
+            <form action="form">
+                <input type="text" id ="eventName" placeholder="Descripción del evento" autocomplete="off">
+                <input type="date" id ="eventDate">
+                <input type="submit" id ="bAdd" value="Añadir evento">
+            </form>
+        </div>
+        <h2 class="titulo-h2">Eventos:</h2>
+        <div class="titulo-sub-h2"></div>
+        <div id="eventsContainer"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
