@@ -389,11 +389,12 @@ div .presentacion__principal--carrera{
 }
 .card-contenido .card-descripcion{
     font-family: 'Barlow Condensed';
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 100;
     color: #ffffff;
     padding: 5px 15px 0 15px;
     margin: 0;
+    
     
 }
 .card-contenido .card-boton{
