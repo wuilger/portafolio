@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.203ca27f.css",
+    "main.js": "/static/js/main.1054a28a.js",
+    "static/media/testimonio-emma.png": "/static/media/testimonio-emma.add10415a5668325d2f2.png",
+    "static/media/testimonio-sarah.png": "/static/media/testimonio-sarah.2c504d1ebaf1961e4a40.png",
+    "static/media/testimonio-shawn.png": "/static/media/testimonio-shawn.0d373888087fb18fc145.png",
+    "index.html": "/index.html",
+    "main.203ca27f.css.map": "/static/css/main.203ca27f.css.map",
+    "main.1054a28a.js.map": "/static/js/main.1054a28a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.203ca27f.css",
+    "static/js/main.1054a28a.js"
+  ]
+}
